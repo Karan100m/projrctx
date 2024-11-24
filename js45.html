@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function formvalidation(){
+            event.preventDefault();
+            let name = document.getElementById("user").value;
+            let error = document.getElementById("us");
+            console.log(name);
+
+            if(name==""){
+                console.log("No input given");
+                document.getElementById("us").innerHTML=" * Required";
+            }
+            else if(name.length<3 || name.length>20){
+                document.getElementById("us").innerHTML="Min 3 and Max 20 characters are allowed"
+            }
+            else if(A-Z a-z s){
+                document.getElementById("us").innerHTML="Only characters and space is allowed"
+            }
+            else{
+                alert("data submitted")
+                name.value=" ";
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="post" onsubmit="formvalidation() ">
+        <label>Enter the name</label><span id="us"></span>
+        <input type="text" name="username"></form>
+    
+</body>
+</html>

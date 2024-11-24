@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            
+        }
+        th{
+            border: 2px solid black;
+            padding: 6px;
+           
+        }
+        #p{
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+        #q{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        tr,td{
+            border: 2px solid black;
+            padding: 6px;
+        }
+        .h{
+            background-color: greenyellow;
+        }
+        .a{
+            background-color: chocolate;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th><span class="h">Category</span></th>
+                <th><span class="h" id="p">Product Name</span></th>
+                <th><span class="h" id="q">Quantity</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3"><span class="a">Electronics</span></td>
+                <td>Smartphone</td>
+                <td>50</td>
+                
+            </tr>
+            <tr>
+                <td>laptop</td>
+                <td>30</td>
+
+                
+            </tr>
+            <tr>
+                <td>Tablet</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td rowspan="2" >Home Appliances</td>
+                <td>Microwave</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Refrigerator</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Furniture</td>
+                <td>Sofa </td>
+                <td>10</td>
+
+            </tr>
+            <tr>
+                <td>Dining table</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Clothing</td>
+                <td>T-Shirts</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>jeans</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td rowspan="2" ><span class="a">Sports Equipment</span></td>
+                <td>Football</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Tennis Racket</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

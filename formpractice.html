@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formspractice</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+
+        <label for="">Name:</label>
+        <input type="text" name="myName">
+        <br>
+        <label for="">Role:</label>
+        <input type="text" name="myRole">
+        <br>
+        
+        <label for="">Email:</label>
+        <input type="email" name="Myemail">
+        <br><br>
+        <label for="">Date:</label><br>
+        <input type="date" name="Date">
+        <br>
+        <label for="">Are you eligible?</label>
+        <input type="checkbox" name="myEligibility" checked>
+        <br><br>
+        <label for="">Bonus:</label>
+        <input type="number" name="mybonus">
+        <br>
+        <label for="">Gender:</label>
+        Male<input type="radio" name="gender"> Female<input type="radio" gender>
+        <br>
+        <label for="">Write about yourself</label>
+        <textarea name="myspace" id="" cols="60" rows="30"></textarea>
+        <br>
+        <label for="">Car:</label>
+        <select name="car" id="">
+            <option value="Indica" selected>
+              Indica
+            </option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Tata">Tata</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset now">
+    </form>
+</body>
+</html>

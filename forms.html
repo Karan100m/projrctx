@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+  <h2>This is HTML forms tutorial</h2>
+  <form action="backend.php">
+    <label for="name">Name: </label>
+    <input type="text" name="myName" id="name"><br>
+    <br>
+    <div>
+    <label for="role">Role :</label>
+    <input type="text" name="myRole" id="role">
+    <div>
+    <br>
+    Email: <input type="email" name="my Email" </div>
+    <br>
+    <br>
+
+    <label for="date">Date: </label>
+    <div>
+      <input type="date" name="mydate" id="date">
+    </div>
+    <br>
+    <div>
+    <label for="eligible"> Are you eligible ?</label>  <input type="checkbox" name="myeligibility" checked>
+    </div>
+    <br>
+    <br>
+    <div>
+      Bonus: <input type="number" name="mybonus">
+    </div>
+    <br>
+
+    <div>
+      Gender: Male<input type="radio" name="myGender"> Female<input type="radio"  name="myGender">
+    </div>
+    <br>
+
+    <div>
+      Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+    </div>
+    <div>
+    <label for="car">Car: </label>
+    <select name="myCar" id="car">
+      <option value="indica" selected>Indica</option>
+      <option value="hyundai">Hyundai</option>
+    </select>
+    </div><br>
+    <div>
+      <input type="submit" value="Submit Now">
+      
+    </div><br>
+    <div>
+      <input type="reset" value="Reset now">
+    </div>
+
+  </form>
+</body>
+
+</html>

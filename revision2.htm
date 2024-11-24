@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myname" id="name">
+        </div>
+        <div>
+            <label for="role">Role:</label>
+            <input type="text" name="myrole" id="role">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <div>
+            Gender:
+            <label for="male">Male:</label>
+            <input type="radio" name="mygender" id="male">
+            <label for="female">Female:</label>
+            <input type="radio" name="mygender" id="female">
+        </div>
+        <div>
+            <label for="bns">Bonus:</label>
+            <input type="number" name="mybonus" id="bns">
+        </div>
+        <div>
+            <label for="way">write about yourself:</label>
+            <br><textarea name="mytext" cols="70" rows="10" name="write about yourself" id="way"></textarea>
+        </div>
+        <div>
+            <label for="elg">are you eligible?</label>
+            <input type="checkbox" checked name="eligibility" id="elg">
+        </div>
+        <div>
+            <label for="carr">car rewarded:</label> 
+            <select name="mycar" id="carr">
+                <option value="ind">indica</option>
+                <option value="hyun" selected>hyundai</option>
+            </select>
+        </div>
+    </form>
+    <!-- this is helpful when i want to go to google or any link by tapping on an image -->
+    <a href="http://google.com"><img src="DSC_4712.JPG" width="100" alt=" "></a>
+
+
+</body>
+
+</html>

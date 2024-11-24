@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity9</title>
+    <style>
+        .form-container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50px,-50px);
+            text-align: center;
+        }
+        form{
+
+            background-color: beige;
+            justify-content: center;
+        }
+    
+        input{
+            width:220px ;
+            height:30px ;
+            margin-bottom: 10px;
+        }
+        textarea{
+            width:220px ;
+            height:60px ;
+            margin-bottom: 10px;
+        }
+        button{
+            background-color: green;
+            width:220px ;
+            height: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    <form class="form-container">
+        <h2>Registration form</h2>
+        <label for="User" >Name</label><br>
+        <input type="text" placeholder="" name="User" id="name"><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label>Password</label><br>
+        <input type="password" name="pass" id="pass"><br>
+        <label>Gender</label><br>
+        <select>
+            <optgroup>
+                <option value="none">select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Other</option>
+            </optgroup>
+        </select><br>
+        <label for="user">Bio:</label><br>
+        <input type="text" placeholder="" name="User" id="User"><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table.html</title>
+    <style>
+        th:hover{
+            background-color: goldenrod;
+        }
+        td:hover{
+            background-color: crimson;
+            font-size: large;
+        }
+
+        table {
+            border: 3px, solid;
+            border-collapse: collapse;
+            height: fit-content;
+            width: min-content;
+        }
+
+        td {
+            border: 2px, solid, red;
+        }
+
+        caption {
+            color: blueviolet;
+            background-color: yellow;
+        }
+        /*.one{
+            background-color: green;
+        }
+        .two{
+            background-color: orange;
+        }
+        .three{
+            background-color: yellow;
+        }
+        .four{
+            background-color: aqua;
+        }
+        .five{
+            background-color: chartreuse;
+        }*/
+        th{
+            border: 4px,solid,blue;
+            padding: 20px;
+        }
+        .two td{
+            border: 3px,dotted green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Students Record</caption>
+        <thead>
+            <tr class="one">
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Roll no</th>
+                <th>Marks</th> 
+                <th colspan="4">contact</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="two">
+                <td rowspan="2">1</td>
+                <td rowspan="2">Ram</td>
+                <td rowspan="2">101</td>
+                <td>Maths</td>
+                <td>100</td>
+                <td rowspan="2">988776232</td>
+                <td rowspan="2">988776238</td>
+                <td rowspan="2">988776230</td>
+            </tr>
+
+            <tr class="two">
+                
+                <td>Hindi</td>
+                <td>90</td>
+                
+            </tr>
+
+            <tr class="three">
+                <td rowspan="3">2</td>
+                <td rowspan="3">Sham</td>
+                <td rowspan="3">102</td>
+                <td>Maths</td>
+                <td>100</td>
+                <td rowspan="3">988776232</td>
+                <td rowspan="3">988776238</td>
+                <td rowspan="3">988776230</td>
+            </tr>
+            <tr class="three">
+                <td>Hindi</td> 
+                <td>99</td>
+            </tr>
+            <tr class="three">
+                <td>English</td>
+                <td>96</td>
+            </tr>
+            </tr>
+          
+        </tbody>
+    </table>
+</body>
+
+</html>

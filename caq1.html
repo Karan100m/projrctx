@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA question1</title>
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse:collapse;
+        }
+        th{
+            border: 2px solid black;
+            padding:20px;
+        }
+        td{
+            border: 2px solid black;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Development</th>
+                <th colspan="3">Marketing</th>
+            </tr>
+
+        </thead>
+        <thead>
+            <tr>
+                <th>Employee</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Employee</th>
+                <th>Role</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="same">
+                <td rowspan="2">Alice</td>
+                <td>Backend Developer</td>
+                <td>On Track</td>
+                <td rowspan="2">John</td>
+                <td>SEO Specialist</td>
+                <td>Delayed</td>
+            </tr>
+            <tr class="same">
+                <td>Frontend Developer</td>
+                <td>In Progress</td>
+                <td>Content Creator</td>
+                <td>On Track</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>QA Tester</td>
+                <td>Completed</td>
+                <td>Sarah</td>
+                <td>Social Media Manager</td>
+                <td>In Progress</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

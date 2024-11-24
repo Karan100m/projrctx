@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="fun1()">Alert</button>
+    <button onclick="fun2()">Confirm</button>
+    <button onclick="fun3()">Prompt</button>
+    <button onclick="add()">Addition</button>
+<p id="p1"> </p>
+    <script>
+        function fun1(){
+            let a= "data is hacked"
+            alert(a);
+        }
+
+        function fun2(){
+            confirm("do you want to hack NASA");
+        }
+
+        function fun3(){
+            prompt("Enter the amount you want to loot from Bank");
+        }
+        function add(){
+            let a = parseInt(prompt("n1: "));
+            let b = parseInt(prompt("n3: "));
+
+            //document.write(a);
+            //document.write(b);
+
+            let c = a+b;
+            //document.write(c);
+            document.getElementById("p1").innerHTML=c;
+
+
+        }
+        
+    </script>
+</body>
+</html>
